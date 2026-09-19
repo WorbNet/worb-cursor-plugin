@@ -1,0 +1,15 @@
+{
+  "name": "worb",
+  "displayName": "WORB",
+  "version": "0.1.0",
+  "description": "Connect Cursor and Grok Bot to bioing: tasks, standup, and board workflows. Sign in with your bioing Google account; Row Level Security applies.",
+  "author": {
+    "name": "WORB",
+    "email": "xavier.tintin@apexsentinels.com"
+  },
+  "homepage": "https://github.com/WorbNet/worb-cursor-plugin",
+  "repository": "https://github.com/WorbNet/worb-cursor-plugin",
+  "license": "MIT",
+  "keywords": ["worb", "bioing", "standup", "tasks", "project-management", "mcp"],
+  "logo": "assets/logo.svg"
+}

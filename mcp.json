@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "worb": {
+      "url": "https://tazupqaykakgkbwmtxbl.supabase.co/functions/v1/mcp"
+    }
+  }
+}

@@ -11,5 +11,8 @@
   "repository": "https://github.com/WorbNet/worb-cursor-plugin",
   "license": "MIT",
   "keywords": ["worb", "bioing", "standup", "tasks", "project-management", "mcp"],
-  "logo": "assets/logo.svg"
+  "category": "integrations",
+  "logo": "assets/logo.svg",
+  "mcpServers": "./mcp.json",
+  "skills": "./skills"
 }

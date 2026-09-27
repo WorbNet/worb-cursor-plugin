@@ -10,6 +10,9 @@ Connect [Cursor](https://cursor.com) and Grok Bot to **bioing** (tasks and stand
 
 Until the plugin is on the [Cursor Marketplace](https://cursor.com/marketplace/publish):
 
+1. **Customize → Plugins → + Add** and choose this repo folder (`worb-cursor-plugin`), **or**
+2. Copy into Cursor’s local plugins directory:
+
 ```bash
 rsync -a --exclude .git ./ ~/.cursor/plugins/local/worb/
 ```

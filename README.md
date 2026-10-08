@@ -1,54 +1,54 @@
-# WORB Cursor plugin
 
-Connect [Cursor](https://cursor.com) and Grok Bot to **bioing** (tasks and standup) through a remote MCP server. You sign in with the same Google account as Prisma. This repo is **packaging only**: no database keys, no Edge Function source.
+# Worb for Cursor
 
-- GitHub: [WorbNet/worb-cursor-plugin](https://github.com/WorbNet/worb-cursor-plugin)
-- MCP: `https://tazupqaykakgkbwmtxbl.supabase.co/functions/v1/mcp`
-- Consent (production): [https://app.worb.net/oauth/consent](https://app.worb.net/oauth/consent)
+Connect Cursor to your Worb account and interact with your data through
+the Worb MCP server.
 
-## Install (local)
+## Features
 
-Until the plugin is on the [Cursor Marketplace](https://cursor.com/marketplace/publish):
+- Connect using your own Worb account.
+- Authenticate securely through OAuth.
+- Read your own Worb profile.
+- Update supported profile fields.
+- Use Worb from compatible Cursor projects.
 
-1. **Customize → Plugins → + Add** and choose this repo folder (`worb-cursor-plugin`), **or**
-2. Copy into Cursor’s local plugins directory:
+## Requirements
 
-```bash
-rsync -a --exclude .git ./ ~/.cursor/plugins/local/worb/
-```
+- Cursor with support for MCP servers and plugins.
+- An active Worb account.
+- Internet access to reach the Worb MCP server.
 
-Reload Cursor, enable **WORB** under Plugins, then **Authenticate** on the `worb` MCP server. The browser should open bioing Google login and the consent screen on `app.worb.net` once that route is deployed.
+## Connection
 
-## Skills
+Worb uses the hosted MCP server:
 
-| Skill | Use |
-|--------|-----|
-| `standup-transcript-to-board` | Transcript → proposed board → writes after confirm |
-| `task-queue-board` | Open task queue by person and project |
-| `standup-board` | Yesterday / today standup board |
+https://app.worb.net/mcp
 
-Agents must **propose, then wait for your OK** before creating or updating tasks or standup rows. Members come only from the live org list.
+Authentication is handled through Worb OAuth. Each user must authorize
+their own account.
 
-## Example prompts
+## Installation
 
-**English**
+This plugin is being prepared for distribution through GitHub and the
+Cursor Marketplace.
 
-- Render the open task queue as a board.
-- Show today’s standup board.
-- Here’s yesterday’s standup transcript. Propose board updates; don’t write until I confirm.
+Once published, install Worb from the Cursor Marketplace and follow
+the authentication prompt to connect your Worb account.
 
-**Español**
+## Available operations
 
-- Muéstrame el tablero de la cola de tareas abiertas.
-- Standup de hoy, solo iconos de estado.
-- Te pego la transcripción del standup. Propón cambios; no escribas hasta que confirme.
+- `get_my_profile`: retrieve the authenticated user's profile.
+- `update_my_profile`: update supported fields in that profile.
+
+Available operations depend on the tools exposed by the Worb MCP server.
 
 ## Security
 
-- No Supabase service role, anon key, or database password in this plugin.
-- Access is a user OAuth token. **Row Level Security** on bioing decides what you can see.
-- Calendar, Drive, and Descript stay as separate connectors.
+- Never share your Worb password or access tokens.
+- Each user accesses their own account through OAuth.
+- Access permissions are enforced by the Worb server.
+- Do not store private credentials in this repository.
 
-## Marketplace
+## Support
 
-Do not submit until Phase A (consent on `app.worb.net` + MCP OAuth) is stable. Then publish from [cursor.com/marketplace/publish](https://cursor.com/marketplace/publish) with this public repo URL.
+Website: https://app.worb.net

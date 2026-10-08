@@ -1,7 +1,14 @@
 {
   "mcpServers": {
     "worb": {
-      "url": "https://tazupqaykakgkbwmtxbl.supabase.co/functions/v1/mcp"
+      "url": "https://app.worb.net/mcp",
+      "auth": {
+        "CLIENT_ID": "cursor-worb",
+        "scopes": [
+          "profile:read",
+          "profile:write"
+        ]
+      }
     }
   }
 }

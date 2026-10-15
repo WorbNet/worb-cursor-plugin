@@ -1,14 +1,19 @@
 {
-  "name": "worb",
-  "description": "Connect Cursor to bioing for tasks, standup, and board workflows via remote MCP.",
+  "name": "worb-skills",
   "owner": {
-    "name": "WORB"
+    "name": "WORB",
+    "email": "xavier.tintin@apexsentinels.com"
+  },
+  "metadata": {
+    "description": "Official Worb agent skills for Cursor",
+    "version": "0.1.0"
   },
   "plugins": [
     {
-      "name": "worb",
-      "source": ".",
-      "description": "Connect Cursor and Grok Bot to bioing: tasks, standup, and board workflows. Sign in with your bioing Google account; Row Level Security applies."
+      "name": "worb-profile",
+      "description": "Use Worb to read and update the authenticated user's own profile through the Worb MCP server.",
+      "source": "./",
+      "skills": ["./skills/worb-profile"]
     }
   ]
 }

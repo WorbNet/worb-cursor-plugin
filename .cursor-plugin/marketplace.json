@@ -1,0 +1,14 @@
+{
+  "name": "worb",
+  "description": "Connect Cursor to bioing for tasks, standup, and board workflows via remote MCP.",
+  "owner": {
+    "name": "WORB"
+  },
+  "plugins": [
+    {
+      "name": "worb",
+      "source": ".",
+      "description": "Connect Cursor and Grok Bot to bioing: tasks, standup, and board workflows. Sign in with your bioing Google account; Row Level Security applies."
+    }
+  ]
+}

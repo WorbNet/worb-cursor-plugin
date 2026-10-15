@@ -1,5 +1,5 @@
 ---
-name: worb
+name: worb-profile
 description: Use Worb to read and update the authenticated user's own profile through the Worb MCP server.
 ---
 

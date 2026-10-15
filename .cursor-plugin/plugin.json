@@ -1,15 +1,16 @@
 {
   "name": "worb",
-  "displayName": "Worb",
   "version": "0.1.0",
-  "description": "Connect Cursor to your Worb account to read and update your data securely.",
+  "description": "Access your WORB account to perform tasks such as managing tasks, editing data, and viewing data.",
   "author": {
-    "name": "Worb"
+    "name": "Worb",
+    "email": "xavier.tintin@apexsentinels.com",
+    "url": "https://app.worb.net"
   },
   "homepage": "https://app.worb.net",
   "license": "MIT",
   "keywords": ["worb", "mcp", "oauth", "profile"],
-  "logo": "assets/logo.svg",
+  "logo": "https://www.worb.net/assets/icons/worb.svg",
   "mcpServers": "./mcp.json",
   "skills": "./skills"
 }

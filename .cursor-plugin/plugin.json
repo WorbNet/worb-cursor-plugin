@@ -9,5 +9,7 @@
   "homepage": "https://app.worb.net",
   "license": "MIT",
   "keywords": ["worb", "mcp", "oauth", "profile"],
-  "skills": ["skills/worb"]
+  "logo": "assets/logo.svg",
+  "mcpServers": "./mcp.json",
+  "skills": "./skills"
 }

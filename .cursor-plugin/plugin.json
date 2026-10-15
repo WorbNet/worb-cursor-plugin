@@ -1,5 +1,6 @@
 {
   "name": "worb",
+  "displayName": "Worb",
   "version": "0.1.0",
   "description": "Access your WORB account to perform tasks such as managing tasks, editing data, and viewing data.",
   "author": {

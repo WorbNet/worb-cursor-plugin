@@ -10,6 +10,7 @@ the Worb MCP server.
 - Authenticate securely through OAuth.
 - Read your own Worb profile.
 - Update supported profile fields.
+- List the projects you belong to or created.
 - Use Worb from compatible Cursor projects.
 
 ## Requirements
@@ -39,6 +40,7 @@ the authentication prompt to connect your Worb account.
 
 - `get_my_profile`: retrieve the authenticated user's profile.
 - `update_my_profile`: update supported fields in that profile.
+- `list_my_projects`: list projects the authenticated user belongs to or created. Optional `status` filter: `active`, `paused`, `completed`, or `cancelled`.
 
 Available operations depend on the tools exposed by the Worb MCP server.
 

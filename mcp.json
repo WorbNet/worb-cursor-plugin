@@ -6,7 +6,8 @@
         "CLIENT_ID": "cursor-worb",
         "scopes": [
           "profile:read",
-          "profile:write"
+          "profile:write",
+          "projects:read"
         ]
       }
     }

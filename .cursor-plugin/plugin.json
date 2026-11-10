@@ -1,8 +1,8 @@
 {
   "name": "worb",
   "displayName": "Worb",
-  "version": "0.1.0",
-  "description": "Access your WORB account to perform tasks such as managing tasks, editing data, and viewing data.",
+  "version": "0.1.1",
+  "description": "Access your WORB account to perform tasks such as managing tasks, editing data, viewing your profile, and listing your projects.",
   "author": {
     "name": "Worb",
     "email": "xavier.tintin@apexsentinels.com",
@@ -10,7 +10,7 @@
   },
   "homepage": "https://app.worb.net",
   "license": "MIT",
-  "keywords": ["worb", "mcp", "oauth", "profile"],
+  "keywords": ["worb", "mcp", "oauth", "profile", "projects"],
   "logo": "https://www.worb.net/assets/icons/worb.svg",
   "mcpServers": "./mcp.json",
   "skills": "./skills"

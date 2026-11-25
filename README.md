@@ -1,8 +1,8 @@
 
-# Worb for Cursor
+# Worb Plugin
 
-Connect Cursor to your Worb account and interact with your data through
-the Worb MCP server.
+Connect Cursor, Claude Code, or Google Antigravity to your Worb account and
+interact with your data through the Worb MCP server.
 
 ## Features
 
@@ -18,11 +18,11 @@ the Worb MCP server.
 - Create milestones in projects you manage.
 - Create tasks assigned to you.
 - Update tasks in projects you belong to.
-- Use Worb from compatible Cursor projects.
+- Use Worb from compatible Cursor, Claude Code, and Antigravity setups.
 
 ## Requirements
 
-- Cursor with support for MCP servers and plugins.
+- Cursor, Claude Code, or Google Antigravity with support for MCP servers and plugins.
 - An active Worb account.
 - Internet access to reach the Worb MCP server.
 
@@ -37,11 +37,14 @@ their own account.
 
 ## Installation
 
-This plugin is being prepared for distribution through GitHub and the
-Cursor Marketplace.
+This plugin supports multiple AI clients from a single repository:
 
-Once published, install Worb from the Cursor Marketplace and follow
-the authentication prompt to connect your Worb account.
+- **Cursor**: `.cursor-plugin/plugin.json` + `mcp.json`
+- **Claude Code**: `.claude-plugin/plugin.json` + `.mcp.json`
+- **Google Antigravity**: `.antigravity-plugin/plugin.json` + `mcp_config.json`
+
+Once published, install Worb from your client's marketplace or plugin CLI
+and follow the OAuth prompt to connect your Worb account.
 
 ## Available operations
 

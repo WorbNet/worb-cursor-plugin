@@ -1,0 +1,14 @@
+{
+  "name": "worb",
+  "version": "0.1.1",
+  "description": "Access your Worb account to view and update your profile, list projects and milestones, check your standup, and manage tasks.",
+  "author": {
+    "name": "Worb",
+    "email": "xavier.tintin@apexsentinels.com",
+    "url": "https://app.worb.net"
+  },
+  "homepage": "https://app.worb.net",
+  "repository": "https://github.com/WorbNet/worb-cursor-plugin",
+  "license": "MIT",
+  "keywords": ["worb", "mcp", "oauth", "profile", "projects", "tasks"]
+}

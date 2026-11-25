@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "worb": {
+      "url": "https://app.worb.net/mcp",
+      "oauth": {
+        "clientId": "antigravity-worb"
+      }
+    }
+  }
+}

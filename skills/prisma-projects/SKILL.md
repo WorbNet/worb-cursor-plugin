@@ -1,11 +1,11 @@
 ---
-name: worb-projects
-description: Use Worb to list the authenticated user's own projects, milestones, tasks, open task queues, and standup through the Worb MCP server.
+name: prisma-projects
+description: Use Prisma (backed by the Worb MCP server) to list the authenticated user's own projects, milestones, tasks, open task queues, and standup.
 ---
 
-# Worb projects
+# Prisma Projects
 
-Use the Worb MCP server when the user asks which projects, milestones, or tasks they have, asks for the open task queue of a project, or asks for their standup.
+Use the Worb MCP server when the user asks which Prisma projects, milestones, or tasks they have, asks for the open task queue of a project, or asks for their standup.
 
 ## Available tools
 
@@ -22,7 +22,7 @@ Optional argument:
 
 Each project includes its code, name, description, status, type, dates, workspace organization, the user's access level, and whether they created it.
 
-This tool requires the `projects:read` OAuth scope. If the call fails because that scope is missing, ask the user to reconnect Worb in Cursor so the permission is granted.
+This tool requires the `projects:read` OAuth scope. If the call fails because that scope is missing, ask the user to reconnect Worb in their AI client so the permission is granted.
 
 ### list_my_milestones
 
@@ -84,7 +84,7 @@ Arguments:
 
 Confirm the project and title with the user before calling this tool. Do not say the milestone was created unless the tool returns it.
 
-This tool requires the `projects:write` OAuth scope. If the call fails because that scope is missing, ask the user to reconnect Worb in Cursor so the permission is granted.
+This tool requires the `projects:write` OAuth scope. If the call fails because that scope is missing, ask the user to reconnect Worb in their AI client so the permission is granted.
 
 ### create_task
 
@@ -100,7 +100,7 @@ Arguments:
 
 Confirm the project, milestone, and title before calling this tool. Do not say the task was created unless the tool returns it.
 
-This tool requires the `tasks:write` OAuth scope. If the call fails because that scope is missing, ask the user to reconnect Worb in Cursor so the permission is granted.
+This tool requires the `tasks:write` OAuth scope. If the call fails because that scope is missing, ask the user to reconnect Worb in their AI client so the permission is granted.
 
 ### update_task
 

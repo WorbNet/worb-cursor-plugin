@@ -1,22 +1,22 @@
 ---
-name: worb-profile
-description: Use Worb to read and update the authenticated user's own profile through the Worb MCP server.
+name: prisma-profile
+description: Use Prisma (backed by the Worb MCP server) to read and update the authenticated user's own profile.
 ---
 
-# Worb Profile
+# Prisma Profile
 
 Use the Worb MCP server when the user asks to consult or update information
-stored in their Worb account.
+stored in their Prisma profile.
 
 ## Available tools
 
 ### get_my_profile
 
-Use this tool when the user wants to see their own Worb profile.
+Use this tool when the user wants to see their own Prisma profile.
 
 ### update_my_profile
 
-Use this tool when the user explicitly asks to modify their own profile.
+Use this tool when the user explicitly asks to modify their own Prisma profile.
 
 ## Rules
 

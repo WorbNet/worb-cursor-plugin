@@ -1,11 +1,11 @@
 ---
-name: worb-projects
-description: Use Worb to list the authenticated user's own projects, milestones, tasks, open task queues, and standup through the Worb MCP server.
+name: prisma-projects
+description: Use Prisma (backed by the Worb MCP server) to list the authenticated user's own projects, milestones, tasks, open task queues, and standup.
 ---
 
-# Worb projects
+# Prisma Projects
 
-Use the Worb MCP server when the user asks which projects, milestones, or tasks they have, asks for the open task queue of a project, or asks for their standup.
+Use the Worb MCP server when the user asks which Prisma projects, milestones, or tasks they have, asks for the open task queue of a project, or asks for their standup.
 
 ## Available tools
 
